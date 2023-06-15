@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  margin-left: 30px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.section {
+  padding: 10px;
+  border-left: solid 1px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 50px;
+}
